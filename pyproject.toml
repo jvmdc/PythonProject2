@@ -1,0 +1,11 @@
+[tool.poetry]
+name = "PythonProject1"
+version = "0.0.1"
+description = "Showcase version constraint issue with Poetry and Renovate"
+authors = ["jvmdc"]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.13"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "7.0.0"
